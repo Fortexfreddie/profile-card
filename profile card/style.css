@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container1 .container1_bgi{
+    background-color: #092147;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+}
+.container1 .container1_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgba(248,215,198, 0.45);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    justify-self: center;
+    /* width: fit-content; */
+    width: 60%;
+    padding: 20px;
+}
+.container1 .container1_grid .gridImg{
+    padding: 20px;
+}
+.container1 .container1_grid .gridImg img{
+    width: 18rem;
+    border-radius: 15px;
+}
+.container1 .container1_grid .gridContents{
+    text-align: start;
+    align-content: center;
+}
+.container1 .container1_grid .gridContents h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+.container1 .container1_grid .gridContents h2:first-of-type{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.container1 .container1_grid .gridContents h2:last-child{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+.container1 .container1_grid .bio p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #092147;
+}
+.container1 .container1_grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+.container1 .container1_grid .gridContents .location{
+    display: flex;
+    /* justify-content: center; */
+}
+.container1 .container1_grid .gridContents .location img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.container1 .container1_grid .gridContents .location h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.container1 .container1_grid .gridContents .email{
+    display: flex;
+    /* justify-content: center; */
+}
+.container1 .container1_grid .gridContents .email img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.container1 .container1_grid .gridContents .email h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.container1 .container1_grid .gridContents .socials ul{
+    padding-top: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+.container1 .container1_grid .gridContents .socials ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+.container1 .container1_grid .gridContents .socials ul li a{
+    text-decoration: none;
+}
+.container1 .container1_grid .gridContents .socials ul li a img{
+    width: 15px;
+    height: 15px;
+}
+.container1 .container1_grid .gridContents .time{
+    justify-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #092147;
+    padding-top: 5px;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .container1 .container1_grid{
+        display: block;
+    }
+    .container1 .container1_grid .gridImg{
+        justify-content: center;
+        display: flex;
+    }
+    .container1 .container1_grid .gridImg img{
+        width: 10rem;
+        border-radius: 10px;
+        justify-self: center;
+    }
+    .container1 .container1_grid .gridContents{
+        text-align: center;
+    }
+    .container1 .container1_grid .gridContents h1{
+        font-size: 15px;
+    }
+    .container1 .container1_grid .gridContents h2:first-of-type{
+        font-size: 10px;
+    }
+    .container1 .container1_grid .gridContents h2:last-child{
+        font-size: 13px;
+    }
+    .container1 .container1_grid .bio p{
+        font-size: 10px;
+        text-align: start;
+    }
+    .container1 .container1_grid2{
+        display: block;
+    }
+    .container1 .container1_grid .gridContents .location img{
+        width: 12px;
+        height: 12px;
+    }
+    .container1 .container1_grid .gridContents .location h3{
+        font-size: 10px;
+    }
+    .container1 .container1_grid .gridContents .email img{
+        width: 12px;
+        height: 12px;
+    }
+    .container1 .container1_grid .gridContents .email h3{
+        font-size: 10px;
+    }
+}
+
+
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .container1 .container1_grid{
+        display: block;
+    }
+    .container1 .container1_grid .gridImg{
+        justify-content: center;
+        display: flex;
+    }
+    .container1 .container1_grid .gridImg img{
+        width: 13rem;
+        border-radius: 10px;
+        justify-self: center;
+    }
+    .container1 .container1_grid .gridContents{
+        text-align: center;
+    }
+    .container1 .container1_grid .gridContents h1{
+        font-size: 15px;
+    }
+    .container1 .container1_grid .gridContents h2:first-of-type{
+        font-size: 10px;
+    }
+    .container1 .container1_grid .gridContents h2:last-child{
+        font-size: 13px;
+    }
+    .container1 .container1_grid .bio p{
+        font-size: 10px;
+        text-align: start;
+    }
+    .container1 .container1_grid2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container1 .container1_grid .gridContents .location img{
+        width: 12px;
+        height: 12px;
+    }
+    .container1 .container1_grid .gridContents .location h3{
+        font-size: 10px;
+    }
+    .container1 .container1_grid .gridContents .email img{
+        width: 12px;
+        height: 12px;
+    }
+    .container1 .container1_grid .gridContents .email h3{
+        font-size: 10px;
+    }
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .container1 .container1_grid{
+        display: block;
+    }
+    .container1 .container1_grid .gridImg{
+        justify-content: center;
+        display: flex;
+    }
+    .container1 .container1_grid .gridImg img{
+        width: 15rem;
+        border-radius: 10px;
+        justify-self: center;
+    }
+    .container1 .container1_grid .gridContents{
+        text-align: center;
+    }
+    .container1 .container1_grid .gridContents h1{
+        font-size: 15px;
+    }
+    .container1 .container1_grid .gridContents h2:first-of-type{
+        font-size: 10px;
+    }
+    .container1 .container1_grid .gridContents h2:last-child{
+        font-size: 13px;
+    }
+    .container1 .container1_grid .bio p{
+        font-size: 10px;
+        text-align: start;
+    }
+    .container1 .container1_grid2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container1 .container1_grid .gridContents .location img{
+        width: 15px;
+        height: 15px;
+    }
+    .container1 .container1_grid .gridContents .location h3{
+        font-size: 11px;
+    }
+    .container1 .container1_grid .gridContents .email img{
+        width: 15px;
+        height: 15px;
+    }
+    .container1 .container1_grid .gridContents .email h3{
+        font-size: 11px;
+    }
+}
