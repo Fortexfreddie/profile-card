@@ -11,6 +11,7 @@ body{
     width: 100vw;
     height: 100vh;
     align-content: center;
+    min-width: 300px;
 }
 .container1 .container1_grid{
     display: grid;
@@ -27,7 +28,7 @@ body{
     padding: 20px;
 }
 .container1 .container1_grid .gridImg img{
-    width: 18rem;
+    width: 20rem;
     border-radius: 15px;
 }
 .container1 .container1_grid .gridContents{
@@ -259,6 +260,48 @@ body{
     }
     .container1 .container1_grid .bio p{
         font-size: 10px;
+        text-align: start;
+    }
+    .container1 .container1_grid2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container1 .container1_grid .gridContents .location img{
+        width: 15px;
+        height: 15px;
+    }
+    .container1 .container1_grid .gridContents .location h3{
+        font-size: 11px;
+    }
+    .container1 .container1_grid .gridContents .email img{
+        width: 15px;
+        height: 15px;
+    }
+    .container1 .container1_grid .gridContents .email h3{
+        font-size: 11px;
+    }
+}
+
+
+
+
+@media (min-width: 993px) and (max-width: 1050px) {
+    .container1 .container1_grid .gridImg img{
+        width: 18rem;
+        border-radius: 10px;
+        justify-self: center;
+    }
+    .container1 .container1_grid .gridContents h1{
+        font-size: 15px;
+    }
+    .container1 .container1_grid .gridContents h2:first-of-type{
+        font-size: 10px;
+    }
+    .container1 .container1_grid .gridContents h2:last-child{
+        font-size: 13px;
+    }
+    .container1 .container1_grid .bio p{
+        font-size: 9px;
         text-align: start;
     }
     .container1 .container1_grid2{
